@@ -41,11 +41,19 @@ void addStudent() {
     printf("Enter Email: ");
     scanf("%s", s.email);
 
-    printf("Enter Year (1/2/3/4): ");
-    scanf("%d", &s.year);
+    do {
+        printf("Enter Year (1/2/3/4): ");
+        scanf("%d", &s.year);
+        if (s.year < 1 || s.year > 4)
+            printf("Invalid year. Enter 1, 2, 3, or 4.\n");
+    } while (s.year < 1 || s.year > 4);
 
-    printf("Enter Current Semester (1-8): ");
-    scanf("%d", &s.semester);
+    do {
+        printf("Enter Current Semester (1-8): ");
+        scanf("%d", &s.semester);
+        if (s.semester < 1 || s.semester > 8)
+            printf("Invalid semester. Enter a value between 1 and 8.\n");
+    } while (s.semester < 1 || s.semester > 8);
 
     printf("Enter SGPA for completed semesters (enter 0 if not done):\n");
     int i;

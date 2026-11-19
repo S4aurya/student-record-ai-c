@@ -1,0 +1,89 @@
+--- SAMPLE RUN OUTPUT ---
+
+[Added 5 students: Ansh Sharma, Rahul Verma, Priya Singh, Deepak Kumar, Sneha Joshi]
+
+--- Display All Students ---
+
+-----------------------------
+SAP ID    : 500123456
+Roll No   : CS101
+Name      : Ansh Sharma
+Phone     : 9876543210
+Email     : ansh@student.upes.ac.in
+Year      : 1
+Semester  : 2
+SGPA      : S1:8.50  S2:7.90
+-----------------------------
+
+-----------------------------
+SAP ID    : 500123457
+Roll No   : CS102
+Name      : Rahul Verma
+Phone     : 9876500001
+Email     : rahul@student.upes.ac.in
+Year      : 1
+Semester  : 1
+SGPA      : S1:7.20
+-----------------------------
+
+-----------------------------
+SAP ID    : 500123458
+Roll No   : CS103
+Name      : Priya Singh
+Phone     : 9876500002
+Email     : priya@student.upes.ac.in
+Year      : 2
+Semester  : 3
+SGPA      : S1:8.00  S2:8.20  S3:7.50
+-----------------------------
+
+-----------------------------
+SAP ID    : 500123459
+Roll No   : CS104
+Name      : Deepak Kumar
+Phone     : 9876500003
+Email     : deepak@student.upes.ac.in
+Year      : 2
+Semester  : 4
+SGPA      : S1:6.00  S2:5.80  S3:6.20  S4:6.50
+-----------------------------
+
+-----------------------------
+SAP ID    : 500123460
+Roll No   : CS105
+Name      : Sneha Joshi
+Phone     : 9876500004
+Email     : sneha@student.upes.ac.in
+Year      : 1
+Semester  : 2
+SGPA      : S1:5.00  S2:4.80
+-----------------------------
+
+--- CGPA Results ---
+CGPA of Ansh Sharma  : 8.20
+CGPA of Sneha Joshi  : 4.90
+
+--- Average CGPA by Year ---
+Year 1 Average CGPA: 6.77 (from 3 students)
+Year 2 Average CGPA: 7.01 (from 2 students)
+
+--- AI Academic Advisor ---
+Student: Ansh Sharma | CGPA: 8.20
+Academic Advice: Good performance. Try to push a bit harder in weaker subjects.
+
+Student: Sneha Joshi | CGPA: 4.90
+Academic Advice: Requires immediate attention. Please talk to your faculty advisor.
+
+--- Sort by SAP ID ---
+500123456 - Ansh Sharma
+500123457 - Rahul Verma
+500123458 - Priya Singh
+500123459 - Deepak Kumar
+500123460 - Sneha Joshi
+
+--- Sort by Name ---
+Ansh Sharma
+Deepak Kumar
+Priya Singh
+Rahul Verma
+Sneha Joshi
